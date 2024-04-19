@@ -11,8 +11,8 @@ public class ViewApplication {
 		SpringApplication app = new SpringApplication(ViewApplication.class);
 		ApplicationContext ac = app.run(args);
 
-		PdfService pdfGenerator = ac.getBean("pdfGenerator", PdfService.class);
-		pdfGenerator.generatePdf();
+		PdfUtil pdfGenerator = ac.getBean("pdfGenerator", PdfUtil.class);
+		pdfGenerator.getPdf();
 	}
 
 }

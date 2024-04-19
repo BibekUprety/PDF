@@ -40,6 +40,17 @@
 			<version>5.5.13.2</version>
 		</dependency>
 
+		<!--<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>itext7-core</artifactId>
+			<version>7.1.16</version> &lt;!&ndash; or the latest version &ndash;&gt;
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox</artifactId>
+			<version>2.0.24</version>
+		</dependency>-->
 	</dependencies>
 
 	<build>

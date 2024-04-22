@@ -40,8 +40,24 @@ public class PdfData {
         l1.put("email", "bibek@gmail.com1");
         l1.put("mobileNo", "98403489371");
 
+        Map<String, Object> l2 = new HashMap<>();
 
-        return new ArrayList<>(Arrays.asList(l, l1));
+        l2.put("id", 2);
+        l2.put("transaction name", 1);
+        l2.put("Transaction Date", 1);
+        l2.put("Customer Name", 1);
+        l2.put("Customer Mobile", 1);
+        l2.put("Customer Address", 1);
+        l2.put("Customer Net Commission (Rs.)", 1);
+        l2.put("Transaction Status", 1);
+        l2.put("Account No.", 1);
+        l2.put("name", "Bibek Upreti1");
+        l2.put("address", "kathmandu1");
+        l2.put("email", "bibek@gmail.com1");
+        l2.put("mobileNo", "98403489371");
+
+
+        return new ArrayList<>(Arrays.asList(l, l1,l2));
     }
 
 
